@@ -1,0 +1,17 @@
+{
+  "name": "reporte-de-acceso...",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",  
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "import:users": "node scripts/cargarUsuarios.js",
+    "import:data": "node scripts/cargarDatos.js", 
+    "destroy:data": "node scripts/cargarDatos.js -d"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
